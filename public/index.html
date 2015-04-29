@@ -1,22 +1,18 @@
 <!doctype html>
 <html>
   <head>
-    <title>Right Now</title>
+    <title>Socket Chat!</title>
   </head>
   <body>
 
-    <h1>Right Now</h1>
+    <h1>Socket Chat</h1>
 
-    <section class="lyrics">
-      <p>Right now,</p>
-      <p>Hey, it's your tomorrow </p>
-      <p>Right now, </p>
-      <p>C'mon, it's everything </p>
-      <p>Right now, </p>
-      <p>Catch a magic moment, do it </p>
-      <p>Right here and now </p>
-      <p>It means everything</p>
+    <section class="messages">
     </section>
+
+    <input type="text" class="username" placeholder="Username">
+    <input type="text" class="new-message" placeholder="Enter message">
+    <input type="submit" value="Message" class="send-message">
 
     <script src="/jquery.js"></script>
     <script src="/socket.io/socket.io.js"></script>
